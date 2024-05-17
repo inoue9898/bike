@@ -1,0 +1,199 @@
+
+.header-4 {
+  box-sizing: border-box;
+  width: 100%;
+	background-color: rgb(204, 158, 239);
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1024px;
+  height: 60px;
+  padding: 0 0.8em;
+  margin: 0 auto;
+  font-size: 1.2em;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+
+.header-nav-item {
+  display: flex;
+  align-items: center;
+  margin-left: 16px;
+}
+
+.logo {
+  font-size: 40px;
+}
+
+.header-avatar {
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.form2 {
+  position: relative;
+}
+
+.form2-input {
+  box-sizing: border-box;
+  width: 140px;
+  height: 28px;
+  padding: 0 8px 0 30px;
+  margin: 5px 0;
+  font-size: 12px;
+  color: #333;
+  border: solid 1px #ccc;
+  border-radius: 5px;
+  outline: 0;
+  transition: 0.3s;
+}
+
+.form2-input:focus {
+  border: 1px solid #00b5ad;
+}
+
+.form2-button {
+  position: absolute;
+  top: 0;
+  left: 2px;
+  box-sizing: content-box;
+  width: 30px;
+  height: 38px;
+  padding: 0;
+  font-size: 16px;
+  vertical-align: vertical-align;
+  pointer-events: none;
+  background: inherit;
+  border: 0;
+  opacity: 0.54;
+}
+
+.stock_list {
+	margin-left: 100px;
+	
+}
+
+.table_list {
+	margin-top: 40px;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+.stock {
+	margin-top: 20px;
+	display: flex;
+	align-items: center;
+}
+
+.regist_btn {
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	width: 120px;
+	margin-left: auto;
+	margin-right: 100px;
+	font-weight: bold;
+	border-radius: 100vh;
+	border-bottom: 7px solid #0686b2;
+	background: #27acd9;
+	color: #fff;
+}
+
+.regist_btn:hover {
+	margin-top: 6px;
+	border-bottom: 1px solid #0686b2;
+	color: #fff;
+}
+
+.store_btn {
+	display: block;
+	text-align: center;
+	text-decoration: none;
+
+	padding: 1px 0px;
+	font-weight: bold;
+	border-radius: 0.3rem;
+	border-bottom: 7px solid #49020d;
+	background: #ed0c0c;
+	color: #fff;
+}
+.store_btn:hover {
+	margin-top: 6px;
+	border-bottom: 1px solid #0686b2;
+	color: #fff;
+}
+
+.form-group {
+	margin: 60px 60px;
+}
+
+.submit {
+	text-align: center;
+}
+
+.submit_btn {
+	background-color: red;
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-left: 60px;
+
+	font-weight: bold;
+	border-radius: 0.3rem;
+	border-bottom: 7px solid #49020d;
+	background: #ed0c0c;
+	color: #fff;
+}
+
+.submit_btn:hover {
+	margin-top: 6px;
+	border-bottom: 1px solid #0686b2;
+	color: #fff;
+}
+
+.purchase_group {
+	margin: 60px 60px;
+}
+
+.purchase_list {
+	margin-left: 5px;
+	color: #ed0c0c;
+
+}
+
+.regist_list {
+	margin-left: 60px;
+}
+
+.error_m {
+	color: #ed0c0c;
+}
+
+.delete_btn {
+	display: block;
+	text-align: center;
+	text-decoration: none;
+
+	padding: 1px 0px;
+	font-weight: bold;
+	border-radius: 0.3rem;
+	border-bottom: 7px solid #0a0c4e;
+	background: blue;
+	color: #fff;
+}
+
+.delete_btn:hover {
+	margin-top: 6px;
+	border-bottom: 1px solid #0686b2;
+	color: #fff;
+}
